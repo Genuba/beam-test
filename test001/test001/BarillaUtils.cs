@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace test001
 {
     class BarillaUtils
     {
@@ -35,7 +35,7 @@ namespace ConsoleApp1
                     break;
             }
 
-            float sumBarilla =  0;
+            float sumBarilla = 0;
             float beamLimit = 0;
             float finBarilla = 0;
             int contPointDistance = 0;
@@ -50,7 +50,7 @@ namespace ConsoleApp1
                     if (temp > maxBarilla)
                     {
                         corteBarilla.Add(beamLimit);
-                        pointDistance.RemoveRange(0,contPointDistance);
+                        pointDistance.RemoveRange(0, contPointDistance);
                         finBarilla = sumBarilla + beamLimit;
                         break;
                     }
