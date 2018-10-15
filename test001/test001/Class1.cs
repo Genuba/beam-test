@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace test001
 {
-    class Program
+    class Class1
     {
         static void Main(string[] args)
         {

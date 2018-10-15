@@ -1,2 +1,7 @@
 D:\Repos\ADA\c#\test-c\test001\test001\obj\Debug\test001.csprojAssemblyReference.cache
 D:\Repos\ADA\c#\test-c\test001\test001\obj\Debug\test001.csproj.CoreCompileInputs.cache
+D:\Repos\ADA\c#\test-c\test001\test001\bin\Debug\test001.exe.config
+D:\Repos\ADA\c#\test-c\test001\test001\bin\Debug\test001.exe
+D:\Repos\ADA\c#\test-c\test001\test001\bin\Debug\test001.pdb
+D:\Repos\ADA\c#\test-c\test001\test001\obj\Debug\test001.exe
+D:\Repos\ADA\c#\test-c\test001\test001\obj\Debug\test001.pdb
