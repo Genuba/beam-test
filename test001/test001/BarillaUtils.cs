@@ -26,6 +26,7 @@ namespace test001
                         pointDistance.Add(temp);
                         temp = (x / 2);
                     }
+                    pointDistance.Add(temp);
                     break;
                 case 'i':
                     pointDistance = beamDistance;
