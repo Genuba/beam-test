@@ -52,7 +52,7 @@ namespace test001
                     {
                         pointDistance.RemoveRange(0, contPointDistance);
                         finBarilla = sumBarilla + beamLimit;
-                        corteBarilla.Add(beamLimit);
+                        corteBarilla.Add(finBarilla);
                         break;
                     }
                     beamLimit = temp;
@@ -61,7 +61,7 @@ namespace test001
                 sumBarilla = sumBarilla + beamLimit;
             } while (final >= sumBarilla);
 
-            corteBarilla.Add(final - finBarilla);
+            corteBarilla.Add(final);
 
             matrizValues.Add(corteBarilla);
 
