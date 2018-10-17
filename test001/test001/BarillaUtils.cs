@@ -50,9 +50,9 @@ namespace test001
                     temp = temp + x;
                     if (temp > maxBarilla)
                     {
-                        corteBarilla.Add(beamLimit);
                         pointDistance.RemoveRange(0, contPointDistance);
                         finBarilla = sumBarilla + beamLimit;
+                        corteBarilla.Add(beamLimit);
                         break;
                     }
                     beamLimit = temp;
